@@ -1,9 +1,6 @@
 
 body
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/crop_bg.jpg') center center/cover no-repeat
-  background-size: cover
-  background-position: center
-  background-repeat: no-repeat
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/crop_bg.jpg') center center/cover no-repeat
   background-attachment: fixed
   max-width: 100%
   max-height: 100%
@@ -32,9 +29,9 @@ body
     opacity: 1
     width: 70%
     margin: 5px auto 5px
-  width: 1000px
-  margin: 0 auto
-  min-height: 300px
+    width: 1000px
+    margin: 0 auto
+    
   &_container
     padding-top: 180px
   h2
@@ -167,25 +164,23 @@ footer
   width: 100%
   
 
-.logos
-  padding: 50px 0 30px 0
-  height: 300px
-  display: flex
-  justify-content: space-evenly
-  img
-    height: 150px
-    width: 200px
+.foot
+  height: 100px
     
   
 @media screen and ( max-width: 575px )
+  body
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/field.jpg') center center/cover no-repeat
+    background-attachment: fixed
+    max-width: 100%
+    max-height: 100%
   .promo
-
-      
+    text-shadow: 1px 1px 2px black
     &_container
-      height: 305px
+      height: 330px
       padding: 170px 3px 100px 3px
     h1
-      font-size: 20px
+      font-size: 18px
       line-height: 20px
     h2
       text-align: center
@@ -193,8 +188,13 @@ footer
       line-height: 20px
     h3
       margin-top: 15px
-      font-size: 20px
+      font-size: 18px
       line-height: 20px
+    hr
+      width: 90%
+      height: 1px
+      margin-top: 3px
+      margin-bottom: 3px
       
     &_1
     font-size: 10px
