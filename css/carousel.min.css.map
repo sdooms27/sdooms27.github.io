@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/carousel.scss"
-    ],
-    "names": [],
-    "file": "carousel.min.css"
-}
